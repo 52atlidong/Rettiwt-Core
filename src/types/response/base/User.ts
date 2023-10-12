@@ -61,6 +61,7 @@ export interface IUserLegacy {
 	entities: IProfileEntities;
 	fast_followers_count: number;
 	favourites_count: number;
+	followed_by: boolean;
 	followers_count: number;
 	friends_count: number;
 	has_custom_timelines: boolean;
